@@ -362,8 +362,11 @@ footer i {
 
 .text img{
 	height:70.0rem;
-	margin-top:-23.0rem;
 	margin-left:2.0rem;
+	max-width: 94.0rem;
+	height: auto;
+	margin-top: 5.0rem;
+	margin-bottom: 3.0rem;
   }
 
 
