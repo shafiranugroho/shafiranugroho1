@@ -323,6 +323,24 @@ footer i {
   width:auto; 
   }
 
+ /* TITLE2 */
+
+.title2 {
+  background-color: #ffffff;
+  height: 60.0rem;
+  }
+
+.title2 h1 {
+  font-size: 11.0rem;
+  font-family: "Baskerville";
+  margin-top: 7.0rem;
+  }
+
+  .title2 img {
+  height: 15.0rem;
+  width:auto; 
+  }
+
   /* IMAGEBANNER */
 
 .imagebanner {
@@ -331,6 +349,36 @@ footer i {
  .imagebanner img {
   height: 40.0rem;
   width:auto; 
+  }
+
+ /* IMAGEBANNER2 */
+
+.imagebanner2 {
+	background-image: url("../images/SN_4.jpg");
+  background-size: cover;
+  opacity: 0.7; 
+  width: 100%;
+  height: 60.0rem;
+  margin-bottom:7.0rem;
+
+  }
+
+.imagebanner2 h2 {
+	font-family: "Fontawesome";
+	color: #ffffff;
+	font-size: 10.0rem;
+	padding-top: 23.0rem;
+}
+
+ /* IMAGEBANNER3 */
+
+.imagebanner3 {
+	background-image: url("../images/SN_exhibition-1.jpg");
+  background-size: 142.0rem;
+  width: 100%;
+  height: 40.0rem;
+  margin-bottom:7.0rem;
+
   }
 
 /* TEXT */
@@ -363,7 +411,7 @@ footer i {
 .text img{
 	height:70.0rem;
 	margin-left:2.0rem;
-	max-width: 94.0rem;
+	max-width: 90.0rem;
 	height: auto;
 	margin-top: 5.0rem;
 	margin-bottom: 3.0rem;
@@ -403,3 +451,33 @@ footer i {
   margin-left: 3.5rem;
 
 }
+
+/* ART */
+
+.art {
+  background-color: #ffffff;
+  margin-top:7.0rem;
+  padding-bottom:3.0rem;
+
+  }
+
+  .art h6{
+	font-family: "Avenir";
+	line-height: 2;
+	word-spacing: 0.3rem;
+	margin-left: 3.5rem;
+	margin-top:5.0rem;
+  }
+
+.art h5{
+	font-family: "Avenir";
+	font-size: 1.8rem;
+	font-weight: 600;
+  }
+
+.art img{
+	height:35.0rem;
+	margin-left:2.0rem;
+	margin-top: 7.0rem;
+	margin-bottom: 3.0rem;
+  }
