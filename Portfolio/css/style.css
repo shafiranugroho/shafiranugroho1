@@ -481,3 +481,79 @@ footer i {
 	margin-top: 7.0rem;
 	margin-bottom: 3.0rem;
   }
+
+/* ARTGRID */
+
+.artgrid {
+  background-color: #ffffff;
+  margin-top:7.0rem;
+  padding-bottom:3.0rem;
+  }
+
+  .artgrid h5 {
+  color: #ffffff;
+  font-family: "Avenir";
+  font-size: 1.4rem; 
+  margin-top:24.5rem;
+  padding-bottom:3.0rem;
+  }
+
+
+
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:#1E1E1E;
+    overflow:hidden;
+}
+
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    
+}
+.table{
+    display:table;
+    width:100%;
+    height:100%;
+}
+.table-cell{
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#ffffff;
+}
+
+.img1{
+    background-image: url("../images/SN_3.jpg");
+}
+
+.img2{
+    background-image: url("../images/SN_1.jpg");
+}
+
+.img3{
+    background-image: url("../images/SN_Detail10a.jpg");
+}
+
+.img4{
+    background-image: url("../images/SN_11.jpg");
+}
+
+.img5{
+    background-image: url("../images/SN_2.jpg");
+}
+
+.img6{
+    background-image: url("../images/SN_7.jpg");
+}
