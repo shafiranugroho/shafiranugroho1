@@ -26,21 +26,21 @@ header a {
   background-image: url("../images/aboutme.jpg");
   background-size: cover;
   width: 100%;
-  height: 60.0rem;
+  min-height: 60.0rem;
   margin-bottom:7.0rem;
   }
-.about row {
-	  margin-top:50.0rem;
-}
+
 .about h6{
 	font-family: "Avenir";
-	margin-top: -18.0rem;
+	margin-top: -11.0rem;
 	margin-bottom: 4.0rem;
+	margin-right:10.0rem;
+	font-size: 1.8rem;
   }
 
 .about h1{
 	font-family: "Baskerville";
-	margin-top: 20.0rem;
+	margin-top: 14.0rem;
 	margin-bottom: 0.0rem;
   }
 
@@ -239,6 +239,7 @@ header a {
 	padding-bottom: 2.5rem;
 	text-align: left;
 	color:#000000;
+	margin-left:15.0rem;
   }
 
 .contact h1{
@@ -246,6 +247,7 @@ header a {
 	color:#000000;
 	text-align: left;
 	margin-top:12.5rem;
+	margin-left:15.0rem;
   }
 
 .contact ul li{
