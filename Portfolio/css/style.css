@@ -570,3 +570,16 @@ footer i {
 .img6{
     background-image: url("../images/SN_7.jpg");
 }
+
+/* MOBILE */
+
+.mobile {
+  background-color: #ffffff;
+  margin-top:7.0rem;
+  padding-bottom:3.0rem;
+  }
+
+.mobile img{
+  width: 30.0rem;
+  height:auto;
+  }
