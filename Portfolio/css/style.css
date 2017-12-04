@@ -3,13 +3,13 @@
   display:block;
   height: 3.0rem;
   width: auto;
-  margin-top: -0.3rem;
+
 }
 
 header {
 	background: #ffffff;
-	background-size: cover;
 	padding-top: 2.5rem;
+
 }
 
 header a {
@@ -18,7 +18,18 @@ header a {
   text-decoration: none;
   word-spacing: 2.0rem;
   font-family:"Avenir";
+  padding-top: 1.0rem;
 }
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding-top: 1.8rem;
+}
+
 
 /* ABOUT */
 
