@@ -46,7 +46,6 @@ header a {
 	font-family: "Avenir";
 	margin-top: -11.0rem;
 	margin-bottom: 4.0rem;
-	margin-right:10.0rem;
 	font-size: 1.8rem;
   }
 
@@ -69,7 +68,7 @@ header a {
 
  header nav ul > li.btn-outline:hover > a {
    color:#000000;
-   background: #ffffff
+   background: #ffffff;
  }
 
   header nav ul > li.btn-outline {
@@ -88,6 +87,7 @@ header a {
 
 .process h6{
 	font-family: "Avenir";
+	font-size: 1.8rem;
   }
 
 .process h1{
@@ -96,9 +96,11 @@ header a {
 
  .process img {
   display:block;
-  max-height: 25.0rem;
+  max-height: 13.0rem;
   width: auto;
   margin-top:5.0rem;
+  padding-bottom:5.0rem;
+  padding-top:3.0rem;
   display: block;
   margin: 0 auto;
 }
@@ -114,13 +116,11 @@ header a {
 
 .sample1 h6{
 	font-family: "Avenir";
-	  margin-left: 10.0rem;
 	  padding-bottom: 2.5rem;
   }
 
 .sample1 h1{
 	font-family: "Baskerville";
-	  margin-left: 10.0rem;
   }
 
 .sample1 h5 a{
@@ -128,13 +128,12 @@ header a {
 	font-size: 1.5rem;
 	text-decoration: none;
 	color: #595959;
-	margin-left: 10.0rem;
   }
 
  .sample1 img {
   display:block;
-  max-height: 30.0rem;
-  width: auto;
+  max-height: 20.0rem;
+  max-width: auto;
   margin-top:5.0rem;
   display: block;
   margin: 3.0rem auto;
@@ -148,7 +147,7 @@ header a {
   padding: 10px 40px;
   border: 0.1rem solid  #00b3b3;
   font-family:"Avenir";
-  margin-left:10.0rem;
+
 }
 
 /* SAMPLE2 */
@@ -156,7 +155,7 @@ header a {
 .sample2 {
   padding-top: 8.0rem;
   padding-bottom: 7.0rem;
-  background-image: url("../images/artsample.jpg");
+  background-image: url("../images/respainting1.png");
   background-size: cover;
   width: 100%;
   height: 35.0rem;
@@ -165,8 +164,6 @@ header a {
 
 .sample2 h6{
 	font-family: "Avenir";
-	margin-left: 20.0rem;
-	margin-right: 20.0rem;
 	padding-bottom: 2.5rem;
 	text-align: middle;
 	color:#ffffff;
@@ -200,7 +197,7 @@ header a {
 .sample3 {
   padding-top: 8.0rem;
   padding-bottom: 7.0rem;
-  background-image: url("../images/talented.jpg");
+  background-image: url("../images/respainting2.png");
   background-size: cover;
   width: 100%;
   height: 35.0rem;
@@ -209,8 +206,6 @@ header a {
 
 .sample3 h6{
 	font-family: "Avenir";
-	margin-left: 20.0rem;
-	margin-right: 20.0rem;
 	padding-bottom: 2.5rem;
 	text-align: middle;
 	color:#ffffff;
@@ -243,15 +238,14 @@ header a {
 
 .contact {
   padding-bottom: 2.0rem;
-  height: 30.0rem;
   }
 
  .contact h6{
 	font-family: "Avenir";
-	padding-bottom: 2.5rem;
 	text-align: left;
 	color:#000000;
-	margin-left:15.0rem;
+	text-align: center;
+
   }
 
 .contact h1{
@@ -259,20 +253,17 @@ header a {
 	color:#000000;
 	text-align: left;
 	margin-top:12.5rem;
-	margin-left:15.0rem;
+	text-align: center;
+
   }
 
-.contact ul li{
-	list-style-type: none;
-	font-family: "Avenir";
-	padding-bottom: 2.5rem;
-	text-align: left;
-	color:#000000;
-  }
 
-.contact ul li img{
-	height: 7.0rem;
+.contact img{
+	height: 13.0rem;
 	width: auto;
+	margin-right: 3.0rem;
+	margin-left: 3.0rem;
+	margin-top:3.0rem;
   }
 
 
@@ -301,13 +292,14 @@ footer i {
 /* CHOOSE */z
 
 .choose {
-  height: 30.0rem;
+  margin-top: 5.0rem;
+  margin-bottom: 5.0rem;
   }
 
 .choose img{
 	padding-top:4.0rem;
-	margin-bottom:-10.0rem;
-  height: 50.0rem;
+	margin-bottom:-20.0rem;
+  height: 18.0rem;
   }
 
   .choose h1{
@@ -323,17 +315,17 @@ footer i {
 
 .title {
   background-color: #ffffff;
-  height: 60.0rem;
+  padding-bottom: 8.0rem;
   }
 
 .title h1 {
-  font-size: 20.0rem;
+  font-size: 10.0rem;
   font-family: "Baskerville";
-  margin-top: 7.0rem;
+  margin-top: 11.0rem;
   }
 
   .title img {
-  height: 15.0rem;
+  height: 12.0rem;
   width:auto; 
   }
 
@@ -341,17 +333,17 @@ footer i {
 
 .title2 {
   background-color: #ffffff;
-  height: 60.0rem;
+  padding-bottom: 8.0rem;
   }
 
-.title2 h1 {
-  font-size: 11.0rem;
+ .title2 h1 {
+  font-size: 5.0rem;
   font-family: "Baskerville";
-  margin-top: 7.0rem;
+  margin-top: 11.0rem;
   }
 
   .title2 img {
-  height: 15.0rem;
+  height: 12.0rem;
   width:auto; 
   }
 
@@ -401,8 +393,7 @@ footer i {
   background-color: #ffffff;
   margin-top:7.0rem;
   padding-bottom:3.0rem;
-  margin-left: 23.0rem;
-  margin-right: 23.0rem;
+
 
   }
 
@@ -431,7 +422,7 @@ footer i {
 
 .text img{
 	height:70.0rem;
-	max-width: 80.0rem;
+	max-width: 40.0rem;
 	height: auto;
 	margin-top: 5.0rem;
 	margin-bottom: 3.0rem;
@@ -465,7 +456,7 @@ footer i {
   border-radius: 0.2rem;
   color:  #00b3b3;
   text-decoration: none;
-  padding: 1.0rem 26.0rem;
+  padding: 1.0rem 10.0rem;
   border: 0.1rem solid  #00b3b3;
   font-family:"Avenir";
 
@@ -477,7 +468,6 @@ footer i {
   background-color: #ffffff;
   margin-top:7.0rem;
   padding-bottom:3.0rem;
-  margin-left: 20.0rem;
  
 
   }
@@ -498,20 +488,21 @@ footer i {
 
 .art img{
 	height:35.0rem;
-	margin-top: 17.0rem;
+	margin-top: 3.0rem;
 	margin-bottom: 3.0rem;
   }
 
 .image2 img{
-	height:26.0rem;
-	margin-top:20.0rem;
+	height:auto;
+	width: 33.0rem;
+	margin-top:3.0rem;
   }
 
 /* ARTGRID */
 
 .artgrid {
   background-color: #ffffff;
-  margin-top:7.0rem;
+  margin-top:3.0rem;
   padding-bottom:3.0rem;
   }
 
