@@ -22,12 +22,10 @@ header a {
 }
 
 .navbar {
-    overflow: hidden;
     background-color: #ffffff;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    padding-top: 1.8rem;
     z-index: 100;
 }
 
@@ -40,6 +38,7 @@ header a {
   width: 100%;
   min-height: 60.0rem;
   margin-bottom:7.0rem;
+  margin-top:7.0rem;
   }
 
 .about h6{
@@ -316,16 +315,19 @@ footer i {
 .title {
   background-color: #ffffff;
   padding-bottom: 8.0rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+
   }
 
 .title h1 {
-  font-size: 10.0rem;
+  font-size: 8.0rem;
   font-family: "Baskerville";
-  margin-top: 11.0rem;
+  margin-top: 14.0rem;
   }
 
   .title img {
-  height: 12.0rem;
+  height: 8.0rem;
   width:auto; 
   }
 
@@ -334,16 +336,18 @@ footer i {
 .title2 {
   background-color: #ffffff;
   padding-bottom: 8.0rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
   }
 
  .title2 h1 {
   font-size: 5.0rem;
   font-family: "Baskerville";
-  margin-top: 11.0rem;
+  margin-top: 14.0rem;
   }
 
   .title2 img {
-  height: 12.0rem;
+  height: 8.0rem;
   width:auto; 
   }
 
@@ -353,7 +357,7 @@ footer i {
   }
 
  .imagebanner img {
-  height: 40.0rem;
+  height: 15.0rem;
   width:auto; 
   }
 
@@ -393,8 +397,8 @@ footer i {
   background-color: #ffffff;
   margin-top:7.0rem;
   padding-bottom:3.0rem;
-
-
+  margin-left: 5rem;
+  margin-right: 5rem;
   }
 
  .text h1{
@@ -407,12 +411,12 @@ footer i {
 	line-height: 2;
 	word-spacing: 0.3rem;
 	margin-top:5.0rem;
-	font-size: 2.1rem;
+	font-size: 1.2rem;
   }
 
 .text h5{
 	font-family: "Avenir";
-	font-size: 2.2rem;
+	font-size: 1.6rem;
 	font-weight: 600;
   }
 
@@ -421,8 +425,7 @@ footer i {
   }
 
 .text img{
-	height:70.0rem;
-	max-width: 40.0rem;
+	max-width: 30.0rem;
 	height: auto;
 	margin-top: 5.0rem;
 	margin-bottom: 3.0rem;
@@ -440,23 +443,26 @@ footer i {
  .facts h1{
 	font-family: "Avenir";
 	margin-top:3.0rem;
-	font-size:10.0rem;
-	margin-left: 3.5rem;
+	font-size:8.0rem;
 	font-weight: 900;
+	text-align: center;
   }
 
 .facts h6{
 	font-family: "Avenir";
-	font-size: 2.4rem;
-	margin-left: 10.0rem;
-	margin-top:3.0rem;
+	font-size: 1.4rem;
+	margin-bottom:3.0rem;
+	margin-left: 5.0rem;
+	margin-right: 5.0rem;
+	margin-top:-2rem;
+
   }
 
   .btn2 {
   border-radius: 0.2rem;
   color:  #00b3b3;
   text-decoration: none;
-  padding: 1.0rem 10.0rem;
+  padding: 1.0rem 6.5rem;
   border: 0.1rem solid  #00b3b3;
   font-family:"Avenir";
 
@@ -597,3 +603,52 @@ footer i {
   width: 90.0rem;
   height:auto;
   }
+
+
+
+ .logo-position {
+    padding-top: 3rem;
+    padding-left: 15rem;
+}
+
+.logo-cs {
+    width: 3rem;
+}
+
+.cs-name-gray {
+    color: #4d4d4d;
+    letter-spacing: 0.1rem;
+    padding-top: 2rem;
+}
+
+.cs-nav {
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cs-nav a{
+    text-decoration: none;
+    font-family: "Avenir"
+}
+
+.cs-nav-display {
+    display: inline;
+    margin: 0rem 0.9rem;
+    color: #e2e2e2;
+   }
+
+ .section {
+  text-align: center;
+
+}
+
+.cs-section {
+    margin-bottom: 4rem;
+}
+
+iframe {
+	width:100%;
+}

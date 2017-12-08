@@ -47,6 +47,13 @@
   width: 100%;
   float: left;
   box-sizing: border-box; }
+.container-home {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
 
 /* For devices larger than 400px */
 @media (min-width: 400px) {
@@ -79,6 +86,91 @@
   margin: 0 auto;
 }
 
+.imagebanner img {
+  height: 40.0rem;
+  width:auto; 
+  }
+
+.facts {
+  background: #466368;
+  background: linear-gradient(to right bottom,  #66ccff,  #b3ffff);
+  margin-top:5.0rem;
+  }
+
+ .facts h1{
+  font-family: "Avenir";
+  margin-top:3.0rem;
+  font-size:10.0rem;
+  margin-left: 3.5rem;
+  font-weight: 900;
+  }
+
+.facts h6{
+  font-family: "Avenir";
+  font-size: 2.4rem;
+  margin-left: 10.0rem;
+  margin-top:3.0rem;
+  }
+
+.text {
+  background-color: #ffffff;
+  margin-top:7.0rem;
+  padding-bottom:3.0rem;
+
+
+  }
+
+ .text h1{
+  font-family: "Baskerville";
+  margin-bottom: 5.0rem;
+}
+
+.text h6{
+  font-family: "Avenir";
+  line-height: 2;
+  word-spacing: 0.3rem;
+  margin-top:5.0rem;
+  font-size: 2.1rem;
+  }
+
+.text h5{
+  font-family: "Avenir";
+  font-size: 2.2rem;
+  font-weight: 600;
+  }
+
+.text ul{
+  margin-top:2.0rem;
+  }
+
+.text img{
+  height:70.0rem;
+  max-width: 40.0rem;
+  height: auto;
+  margin-top: 5.0rem;
+  margin-bottom: 3.0rem;
+  }
+
+.cs-nav {
+    margin: 0 auto;
+    text-align: right;
+}
+
+ .logo-position {
+    text-align: left;
+    padding-top: 2rem;
+    padding-left: 0rem;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100;
+}
+
 .title h1 {
   font-size: 20.0rem;
   font-family: "Baskerville";
@@ -98,6 +190,22 @@
 
 .title2 img {
   height: 15.0rem;
+  width:auto; 
+  }
+  
+.title2 {
+  background-color: #ffffff;
+  padding-bottom: 8.0rem;
+  }
+
+ .title2 h1 {
+  font-size: 5.0rem;
+  font-family: "Baskerville";
+  margin-top: 11.0rem;
+  }
+
+  .title2 img {
+  height: 12.0rem;
   width:auto; 
   }
 
@@ -570,14 +678,7 @@ there.
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-
-/* Larger than tablet */
-@media (min-width: 750px) {}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
