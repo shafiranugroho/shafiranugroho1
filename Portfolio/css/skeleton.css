@@ -86,6 +86,15 @@
   margin: 0 auto;
 }
 
+.about {
+  background-image: url("../images/aboutme.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 60.0rem;
+  padding-bottom:1.0rem;
+  margin-top:7.0rem;
+  }
+
 .imagebanner img {
   height: 40.0rem;
   width:auto; 
@@ -192,7 +201,7 @@
   height: 15.0rem;
   width:auto; 
   }
-  
+
 .title2 {
   background-color: #ffffff;
   padding-bottom: 8.0rem;
