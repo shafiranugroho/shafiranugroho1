@@ -60,6 +60,7 @@
   .container {
     width: 85%;
     padding: 0; }
+
   .sample1 h1 {
     text-align:center;
   }
@@ -92,7 +93,20 @@
   width: 100%;
   min-height: 60.0rem;
   padding-bottom:1.0rem;
-  margin-top:7.0rem;
+  margin-top:5.5rem;
+  }
+
+.about h6{
+  font-family: "Avenir";
+  margin-top: -11.0rem;
+  margin-bottom: 4.0rem;
+  font-size: 1.8rem;
+  }
+
+.about h1{
+  font-family: "Baskerville";
+  margin-top: 14.0rem;
+  margin-bottom: 0.0rem;
   }
 
 .imagebanner img {
@@ -229,6 +243,14 @@
   height: 50.0rem;
   }
 
+.contact img{
+  height: 13.0rem;
+  width: auto;
+  margin-right: 3.0rem;
+  margin-left: 3.0rem;
+  margin-top:3.0rem;
+  }
+  
 .sample2 {
   padding-top: 8.0rem;
   padding-bottom: 7.0rem;
@@ -249,6 +271,12 @@
   margin-bottom:7.0rem;
   }
 
+.sample1 {
+  background: #f2f2f2;
+  padding-top: 8.0rem;
+  padding-bottom: 7.0rem;
+  margin-bottom:7.0rem;
+  }
 
 .sample1 img{
   max-height: 30.0rem;
@@ -317,6 +345,15 @@
   height:26.0rem;
   margin-top:20.0rem;
   }
+
+.btn {
+  border-radius: 2.0px;
+  color:  #00b3b3;
+  text-decoration: none;
+  padding: 10px 40px;
+  border: 0.1rem solid  #00b3b3;
+  font-family:"Avenir";
+}
 
 .btn2 {
   border-radius: 0.2rem;
